@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by Nandmin (http://jsbin.com/qunehup/17/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+#canvas {
+  width: 500px;
+  height: 600px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 55px 15px 10px gray;
+  
+  /*
+  A h-shadow az árnyék vízszintes irányú (horizontal) pozíciója, 
+  a v-shadow pedig a függőleges (vertical). 
+  Ez a két paraméter (és egyes böngészők esetén a szín) kötelező, 
+  a szögletes zárójelben lévő blur (elmosódottság, homályosság) és 
+  a spread (kiterjedés) nem. 
+  Az opcionális paraméterek a megadott sorrendben követik egymást 
+  (tehát spread nem adható meg anélkül, hogy a blur értéke ne lenne definiálva).
+  
+  html-be: <!–– <div id="big-rectangle" class="red"></div> -->
+  */
+  
+}
+
+#first-row {
+  height: 75%;
+  width: 100%;
+  background-color: brown;
+}
+
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+
+.red {
+  background-color: red;
+}
+
+.right {
+  float: right;
+}
+
+.black {
+  background-color: black;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+
+#second-divider {
+  height: 3%;
+  width: 100%;
+}
+
+#first-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
+
+#second-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
+
+#second-row {
+  height: 3%;
+  width: 100%;
+}  
+
+#third-row {
+  height: 22%;
+  width: 100%;
+}
+
+#last-column {
+  height: 100%;
+  width: 5%;
+}
+
+#first-tiny-rectangle {
+  height: 45%;
+  width: 100%;
+}
+
+#second-tiny-rectangle {
+  height: 45%;
+  width: 100%;
+}
+
+#third-divider {
+  height: 10%;
+  width: 100%;
+}
+
+#fourth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#fifth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#wide-rectangle {
+  height: 100%;
+  width: 67%;
+}
+
+#small-rectangle {
+  height: 100%;
+  width: 22%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.antiquewhite {
+  background-color: antiquewhite;
+  
+}
+
+</style>
+</head>
+<body>
+  
+  <div id="canvas">
+    <div id="first-row">
+      <div id="big-rectangle" class="red right"></div>
+      <div id="first-divider" class="black right"></div>
+    
+      <div id="first-column" class="right">
+      <div id="first-medium-rectangle"></div>
+      <div id="second-divider" class="black"></div>
+      <div id="second-medium-rectangle"></div>
+      </div>
+    </div>
+    
+    <div id="second-row" class="black"></div>
+    
+    <div id="third-row">
+    <div id="last-column" class="right">
+      <div id="first-tiny-rectangle"></div>
+      <div id="third-divider" class="black"></div>
+      <div id="second-tiny-rectangle" class="yellow"></div>
+    </div>
+    <div id="fourth-divider" class="black right"></div>
+    <div id="wide-rectangle" class="antiquewhite right"></div>
+    <div id="fifth-divider" class="black right"></div>
+    <div id="small-rectangle" class="blue right"></div>
+    </div> <!–– b.szott menteni ez a szar, hiába nyomtam rá bezárás előtt -->
+ </div>
+</body>
+</html>
